@@ -1,0 +1,36 @@
+body{
+	background: white;
+	background-image: url("../images/book-clipart-no-background-10.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 70% auto;
+}
+
+#div_bad_Request{
+	width: 25%;
+	background-color: #ebebeb;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 15px;
+	box-shadow: 0px 0px 21px -1px rgba(201,195,201,1);
+	margin-top: 10%;
+	margin-bottom: 25%;
+	margin-left: 51%;
+
+}
+
+#cloudDiv{
+	width: 80%;
+	min-height: 200px;
+	max-height: 200px;
+	padding:15px;
+	margin: auto;
+	background-color: #ebebeb;
+	box-shadow: 0px 0px 21px -1px rgba(201,195,201,1);
+}
+
+#div_bad_Request img{
+	width: 150px;
+	height: 150px;
+	float: right;
+}

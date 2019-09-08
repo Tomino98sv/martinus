@@ -29,3 +29,7 @@ function skuskaPrejstNaRegistraciu(){
 	alert("teraz akoze nenasiel mail v databaze a ho presmeruje na registraciu");
 	window.location.replace("registration.html");
 }
+
+function backToHome(){
+	window.history.back();
+}
