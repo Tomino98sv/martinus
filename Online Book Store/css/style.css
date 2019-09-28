@@ -187,6 +187,41 @@ h1{
 	padding: 10px 25px 10px 25px;
 }
 
+#eshop_content{
+	background-color: #ebebeb;
+	width: 70%;
+	min-height: 250px;
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-top: 60px;
+	padding: 10px 25px 10px 25px;
+}
+
+#eshop_content input{
+	display: block;
+	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+  	padding-left:25px;
+  	padding-right:25px;
+  	font-weight: bold;
+  	-webkit-box-shadow: inset 0px 0px 10px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 10px -4px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 10px -4px rgba(0,0,0,0.75);
+	outline: none;
+	margin:auto;
+}
+
+#eshop_content input:hover{
+	border:1px solid black;
+}
+
+#eshop_content input:focus{
+	-webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
+}
+
 .headPR{
 	text-align: center;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -201,7 +236,7 @@ font-variant: normal;
 text-transform: none;
 }
 
-#RegInput, #buttonContinue, #registrationFB{
+#RegInput, #buttonContinue, #eshop_content button{
 	width: 60%;
 	height: 45px;
 	margin-left: 20%;
@@ -233,7 +268,7 @@ text-transform: none;
 	box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.75);
 }
 
-#buttonContinue {
+#buttonContinue, #eshop_content button {
 	background-color:#f24537;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
@@ -250,35 +285,10 @@ text-transform: none;
 	text-decoration:none;
 	text-shadow:0px 0px 3px #810e05;
 }
-#buttonContinue:hover {
+#buttonContinue:hover, #eshop_content button:hover {
 	background-color:#ff8c8c;
 }
-#buttonContinue:active {
+#buttonContinue:active, #eshop_content button:active {
 	position:relative;
 	top:1px;
-}
-
-#registrationFB {
-padding:2px;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
-letter-spacing: 1.4px;
-word-spacing: 1.8px;
-color: #003DFF;
-font-weight: 400;
-text-decoration: none;
-font-style: normal;
-font-variant: small-caps;
-text-transform: lowercase;
-border:1px solid #003DFF;
--moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-	background-color: white;
-}
-
-#registrationFB:hover{
-	-moz-box-shadow: -2px 5px 13px -3px #01278a;
-	-webkit-box-shadow: -2px 5px 13px -3px #01278a;
-	box-shadow: -2px 5px 13px -3px #01278a;
 }

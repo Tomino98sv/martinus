@@ -28,17 +28,18 @@
 		</form>
 	</ul>
 </div>
-
+	
 <div id="body_content">
-	<div id="login_content">
-		<p class="headPR">Prihlásenie a registrácia</p>
-		<hr>
-
-		<div class="login_body">
-			<br>
-			<input id="RegInput" type="text" name="e-mail" placeholder="Napis Email Tu ">
-			<hr style="border:0px; border-top: 1px solid rgba(0,0,0,.1); width: 60%; margin-left: 20%;margin-right: 20%;">
-			<button id="buttonContinue" onclick="skuskaPrejstNaRegistraciu()">Prihlasit sa</button>
+	<div id="eshop_content">
+		<div id="fields">
+			<input type="text" name="firstName" placeholder="meno">
+			<input type="text" name="lastName" placeholder="priezvysko">
+			<input type="text" name="adress" placeholder="adresa">
+			<input type="text" name="psc" placeholder="psc">
+			<input type="radio" name="payment" value="dobierka"> Dobierka
+			<input type="radio" name="payment" value="card">Kartou
+			<input type="radio" name="payment" value="Hotovost">Hotovost
+			<button>Dokoncit nakup</button>
 		</div>
 	</div>
 </div>
